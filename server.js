@@ -3,9 +3,15 @@ var express = require('express'),
   port = process.env.PORT || 3000,
   mongoose = require('mongoose'),
 
+
   product = require('./api/models/productModel'), //created model loading here
 
   category = require('./api/models/categoryModel'), //created model loading here
+
+
+user = require('./api/models/userModel'), //created model loading here
+ 
+
 
   bodyParser = require('body-parser');
   
