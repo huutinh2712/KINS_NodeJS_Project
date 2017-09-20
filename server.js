@@ -17,7 +17,7 @@ user = require('./api/models/userModel'), //created model loading here
   
 // mongoose instance connection url connection
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/Tododb'); 
+mongoose.connect('mongodb://Tododb:123456@ds139884.mlab.com:39884/heroku_j6cj400h'); 
 
 
 app.use(bodyParser.urlencoded({ extended: true }));
